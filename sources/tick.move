@@ -83,11 +83,11 @@ module magma_clmm::tick {
         _maybe_tick_lower: option::Option<Tick>,
         _maybe_tick_upper: option::Option<Tick>,
     ): u128 {
-        abort(0)
+        abort (0)
     }
 
     public fun get_reward_growth_outside(_tick: &Tick, _reward_growth_id: u64): u128 {
-        abort(0)
+        abort (0)
     }
 
     public fun get_rewards_in_range(
@@ -96,7 +96,7 @@ module magma_clmm::tick {
         _maybe_lower_tick: option::Option<Tick>,
         _maybe_upper_tick: option::Option<Tick>,
     ): vector<u128> {
-        abort(0)
+        abort (0)
     }
 
     public(package) fun increase_liquidity(
@@ -111,43 +111,42 @@ module magma_clmm::tick {
         _rewards_growth: vector<u128>,
         _magma_distribution_growth: u128,
     ) {
-        abort(0)
+        abort (0)
     }
 
     public fun index(_tick: &Tick): I32 {
-        abort(0)
+        abort (0)
     }
 
     public fun liquidity_gross(_tick: &Tick): u128 {
-        abort(0)
+        abort (0)
     }
 
     public fun liquidity_net(_tick: &Tick): i128::I128 {
-        abort(0)
+        abort (0)
     }
 
     public fun points_growth_outside(_tick: &Tick): u128 {
-        abort(0)
+        abort (0)
     }
 
     public fun rewards_growth_outside(_tick: &Tick): &vector<u128> {
-        abort(0)
+        abort (0)
     }
 
     public fun magma_distribution_growth_outside(_tick: &Tick): u128 {
-        abort(0)
+        abort (0)
     }
 
     public fun magma_distribution_staked_liquidity_net(_tick: &Tick): i128::I128 {
-        abort(0)
+        abort (0)
     }
 
     public fun sqrt_price(_tick: &Tick): u128 {
-        abort(0)
+        abort (0)
     }
 
     public fun tick_spacing(_tick_manager: &TickManager): u32 {
-        abort(0)
+        abort (0)
     }
-
 }
